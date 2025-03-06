@@ -3,5 +3,10 @@
   І так само визначте змінну, яка може приймати тільки одне з двох рядкових значень: 'enable' або 'disable' (literal type)?
 */
 
-let union;
+enum Literal{
+  'enable',
+  'disable'
+}
+
+let union: string | number;
 let literal;
